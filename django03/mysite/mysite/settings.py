@@ -66,6 +66,14 @@ DATABASES = {
     }
 }
 
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': 'cache:11211',
+    }
+
+}
+
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
