@@ -15,3 +15,5 @@ You can then build and run the Docker image:
 
 You can test it by visiting `http://container-ip:8000` in a browser or, if you need access outside the host, on `http://localhost:8000` with the following command:
 
+	docker run --name some-django-app -p 8000:8000 -d my-django-app
+
