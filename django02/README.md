@@ -6,6 +6,6 @@ First example with docker-compose.
 
 To run this example, just go to my-site directory and run
 
-	docker-compose up
+	docker-compose up -d
   
 
