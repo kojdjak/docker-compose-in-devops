@@ -2,7 +2,7 @@ cache:
   image: memcached
 db:
   image: postgres
-web:
+web_custom:
   build: .
   command: python manage.py runserver 0.0.0.0:8000
   volumes:
